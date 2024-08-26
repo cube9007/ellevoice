@@ -1,0 +1,19 @@
+button {
+  cursor: pointer;
+  &.large {
+    padding: 0 20px;
+    font-size: 14px;
+    height: 44px;
+  }
+  &.round {
+    border-radius: 100px;
+  }
+  &.contained {
+    border: none;
+    &.primary {
+      background-color: var(--primary);
+      color: var(--white);
+      
+    }
+  }
+}

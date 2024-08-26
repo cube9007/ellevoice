@@ -1,12 +1,17 @@
 $iconsList: 
-  'youtube';
+  'logo',
+  'menu',
+  'close',
+  'minus',
+  'plus',
+  'arrow-right',
 ;
 .i {
   @each $item in $iconsList {
     &-#{$item} {
       @include mask('icons/#{$item}.svg');
-      width: 20rem;
-      height: 20rem;
+      width: 20px;
+      height: 20px;
 
       // &:not([class*="bgc-"]) {
       //   background-color: var(--gray7);
